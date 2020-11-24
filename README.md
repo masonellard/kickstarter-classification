@@ -17,3 +17,8 @@ Key performance metrics:
 * **Precision:** .93
 * **Recall:** .94
 * **Accuracy:** .92
+
+Key features:
+* **Backers:** Number of contributers to a project. Most prominent feature used in final model.
+* **Real Goal:** Inflation-adjusted goal in USD. Second most prominent feature used in final model.
+* **ARIMA:** ARIMA (order of (1, 1, 0)) prediction of ratio of successes to failures on any given day. Meant to capture any variance that may be attributed to economic fluctuations. Least prominent feature used in final model - though there was relatively little economic volatility during the time period observed. Could be considered safety net that allows the model to adjust to major economic shocks.
