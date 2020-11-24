@@ -11,4 +11,7 @@ Python file that cleans the dataset, conducts feature engineering (including the
 Contains all data files (csv and pickle) used in kickstarter.py.
 
 ## Results
-
+The xgboost classification model with an ARIMA component seemed to outperform all other models with an ROC AUC of .98. Key performance metrics:
+* **Precision:** .93
+* **Recall:** .94
+* **Accuracy:** .92
