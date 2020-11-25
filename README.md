@@ -4,10 +4,10 @@ I analyzed 20,000 projects from 2014 to 2018 on the popular crowdfunding platfor
 
 ## File Descriptions
 
-### [kickstarter.py](https://github.com/masonellard/project-3/blob/main/kickstarter.py)
+### [kickstarter.py](https://github.com/masonellard/kickstarter-classification/blob/main/kickstarter.py)
 Python file that cleans the dataset, conducts feature engineering (including the creation of a time series feature using ARIMA), and classifies project successes and failures using linear regression, KNN, random forest and xgboost. Also includes some visualizations of features and model performance.
 
-### [Data](https://github.com/masonellard/project-3/blob/main/data)
+### [Data](https://github.com/masonellard/kickstarter-classification/blob/main/data)
 Contains all data files (csv and pickle) used in kickstarter.py.
 
 ## Results
